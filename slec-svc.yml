@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: Service
+metadata: 
+  name: medical-svc
+
+  spec:
+    selector:
+      app: medical-pod
+
+    ports:
+      - protocol: tcp
+        port: 80
+        targetPort: 80
+
+
