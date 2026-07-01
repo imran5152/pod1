@@ -8,4 +8,4 @@ metadata:
 spec:
   containers:
     - name: medical-pod-cont1
-      image: aarshtechnologies/medical
+      image: aarushtechnologies/medical
